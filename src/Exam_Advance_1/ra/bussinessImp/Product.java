@@ -129,7 +129,7 @@ public class Product implements IShop, Comparable<Product> {
                 System.out.println("Không tìm thấy danh mục sản phẩm! Vui lòng nhập lại!");
             }
         }
-        System.out.println("Nhập trạng thái sản phẩm: ");
+        System.out.println("Nhập trạng thái sản phẩm(true/false): ");
         productStatus = Boolean.parseBoolean(scanner.nextLine());
     }
 
